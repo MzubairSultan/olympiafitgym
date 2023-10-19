@@ -1,0 +1,77 @@
+.join{
+
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+
+}
+.left_join{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.left_join>hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0px;
+}
+.right_join{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email_container{
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+.email_container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+
+}
+.btn_join_now{
+    background-color: var(--orange);
+    padding: 0.5rem ;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+::placeholder{
+    font-weight: bold;
+}
+@media screen and (max-width:768px){
+
+
+    .join{
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    .left_join{
+        font-size: x-large;
+    }
+    .right_join{
+        padding: 2rem 5rem;
+        border-radius: 4px;
+    
+    }
+    .email_container{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        
+        border-radius: 4px;
+        width: 15rem;
+    }
+}

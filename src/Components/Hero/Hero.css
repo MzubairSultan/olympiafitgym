@@ -1,0 +1,301 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+.right-h{
+    flex:1;
+    position: relative;
+    background-color: var(--orange);
+}
+.best_add{
+
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 13px 20px;
+    margin-top: 4rem;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.best_add div{
+  width: 5.4rem;
+  position: absolute;
+  background-color: var(--orange);
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 2;
+
+}
+.best_add span{
+    z-index: 3;
+}
+
+.headingSection{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+
+}
+.pargraph_hero_section{
+
+    color: white;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: lowercase;
+    
+}
+.figure_section{
+    display: flex;
+    gap: 2rem;
+}
+.fig1{
+    display: flex;
+    flex-direction: column;
+}
+.fig2{
+    display: flex;
+    flex-direction: column;
+}
+.fig3{
+    display: flex;
+    flex-direction: column;
+}
+.fig150{
+    font-size: 2rem;
+    color: white;
+}
+.fig900{
+    font-size: 2rem;
+    color: white;
+}
+.fig50{
+    font-size: 2rem;
+    color: white;
+}
+.expert-coach{
+    color: var(--gray);
+    text-transform: uppercase;
+
+}
+.MembersJoin{
+    color: var(--gray);
+    text-transform: uppercase;
+
+}
+.FitnessProgram{
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.hero_btn{
+    display: flex;
+    gap: 2rem;
+
+}
+.btn-getStarted{
+    background-color: orange;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+}
+.btn-getStarted:hover{
+  cursor: pointer;
+}
+.btn-LearnMore{
+
+    background-color: transparent;
+    padding: 0.5rem;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+    border: 1px solid orange;
+}
+.btn-LearnMore:hover{
+    cursor: pointer;
+}
+.joinNow{
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2px;
+    border: 1px solid orange;
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    color: black;
+}
+.joinNow:hover{
+    cursor: pointer;
+}
+.heart-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: start;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+.herartext{
+    color: var(--gray);
+}
+.bpm117{
+   color: white;
+   font-size: 1.5rem;
+}
+.heart-rate>img{
+    width: 2rem;
+}
+.hero_img{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 27rem;
+    
+}
+.hero_back_img{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+.calories{
+
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 13rem;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+.calories>img{
+    width: 3rem;
+}
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.calories_burned{
+    color: var(--gray);
+}
+.calories_230{
+    color: white;
+    font-size: 1.5rem;
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+@media screen and (max-width:768px)
+ {
+   .hero{
+    flex-direction: column;
+   }
+   .best_add{
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
+   }
+   .headingSection{
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+   }
+   .pargraph_hero_section{
+    font-size: small;
+    font-weight: 200;
+    text-align: center;
+   }
+   .fig150{
+    font-size: large;
+   }
+   .expert-coach{
+    font-size: small;
+   }
+   .fig900{
+    font-size: large;
+   }
+   .MembersJoin{
+    font-size: small;
+   }
+   .fig50{
+    font-size: large;
+   }
+   .FitnessProgram{
+    font-size: small;
+   }
+   .hero_btn{
+    justify-content: center;
+   }
+   .right-h{
+    position: relative;
+    background: none;
+
+   }
+   .heart-rate{
+    left: 1rem;
+    top: 2rem;
+    margin-left: -50px;
+   }
+   .calories{
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+   }
+   .calories>img{
+    width: 2rem;
+   }
+   .calories_230{
+    font-size: 1rem;
+   }
+   .hero_img{
+    position: relative;
+    width: 15rem;
+    left: 7rem;
+    top: 4rem;
+    align-self: center;
+   }
+   .hero_back_img{
+    width: 15rem;
+    left: 2rem;
+    top: 0rem;
+   }    
+       
+}
+
+
